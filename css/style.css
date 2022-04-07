@@ -1,0 +1,1067 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ol,
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+/* =================================
+     HEADER START
+===================================*/
+header {
+  height: 48px;
+  width: 100%;
+  line-height: 48px;
+  padding-bottom: 20px;
+}
+header .header-left p {
+  display: inline-block;
+  margin-right: 35px;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #252525;
+  transition: all linear 0.4s;
+}
+header .header-left p i {
+  margin-right: 8px;
+}
+header .header-left p:hover {
+  color: #7ac431;
+}
+header .header-left .f-p{
+    position: relative;
+}
+header .header-left .f-p::after{
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 20px;
+    background: #e7e7e7;
+    top: 15px;
+    right: -20px;
+}
+header .header-right {
+    display: flex;
+    justify-content: right;
+}
+header .header-right .icon{
+    position: relative;
+    margin-right: 30px;
+}
+header .header-right .icon::after{
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 20px;
+    background: #e7e7e7;
+    top: 15px;
+    right: 0;
+}
+header .header-right p a{
+  display: inline-block;
+  margin-right: 35px;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #252525;
+  transition: all linear 0.4s;
+}
+header .header-right p a:hover{
+  color: #7ac431;
+}
+header .header-right .icon i{
+    font-size: 14px;
+    color: #252525;
+    margin-right: 20px;
+    transition: all linear .4s;
+}
+header .header-right .icon i:hover{
+    color: #7ac431;
+}
+header .header-right .dropdown{
+    margin-right: 50px;
+    position: relative;
+}
+header .header-right .dropdown::after{
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 20px;
+    background: #e7e7e7;
+    top: 15px;
+    right: -20px;
+}
+header .header-right .dropdown{
+    line-height: 28px;
+}
+header .header-right .dropdown a{
+    font-family: "Oswald", sans-serif;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 300;
+    color: #252525;
+}
+header .header-right .dropdown img {
+  width: 27px;
+  margin-right: 5px;
+}
+header .header-right  p{
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #252525;
+}
+header .header-right  p i{
+  margin-right: 5px;
+  transition: all linear .4s;
+}
+header .header-right  p i:hover{
+  color: #7ac431;
+}
+header .line {
+	width: 100%;
+	height: 1px;
+	background: #b7b7b7;
+}
+/* =================================
+     HEADER END
+===================================*/
+
+/* =================================
+     NAV START
+===================================*/
+nav{
+  margin-top: 20px;
+  padding: 20px 0 !important;
+  box-shadow: 0px 8px 6px 2px rgba(0,0,0,0.08);
+  -webkit-box-shadow: 0px 8px 6px 2px rgba(0,0,0,0.08);
+  -moz-box-shadow: 0px 8px 6px 2px rgba(0,0,0,0.08);
+}
+nav img{
+  width: 155px;
+}
+nav .box{
+  display: flex;
+  padding: 0;
+  border: 1px solid #e7e7e7;
+  margin-left:20px;
+}
+nav .box .dropdown a{
+  color: #3e3e3e;
+  margin-right: 50px;
+}
+nav .what{
+  margin-top: 7px;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #b7b7b7;
+  position: relative;
+  padding-right: 30px;
+}
+nav .what::after {
+	position: absolute;
+	content: '';
+	width: 1px;
+	height: 20px;
+	background: #e7e7e7;
+	top: 3px;
+	left: -35px;
+}
+nav .what input{
+  border: 0;
+}
+nav .box {
+  position: relative;
+}
+nav .box .srch{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 45px;
+  height: 100%;
+  line-height:45px;
+  background: #7ac431;
+  color: #fff;
+  text-align: center;
+  transition: all linear .4s;
+}
+nav ul{
+  margin-left: 30px;
+}
+nav ul li a{
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #252525 !important;
+  transition: all linear .4s;
+}
+nav ul li a i{
+display: none !important;
+}
+nav ul li a:hover{
+  color: #7ac431 !important;
+}
+nav .love2{
+  width: 70px;
+}
+nav span{
+  position: relative;
+  width: 20px;
+  height: 20px;
+  line-height: 18px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 600;
+  background: #7ac431;
+  border-radius: 50%;
+  text-align: center;
+}
+nav .one {
+	top: -7px;
+	right: 50px;
+}
+nav .three {
+	top: -7px;
+	right: 26px;
+}
+nav h5{
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #252525;
+  margin-top: 8px;
+}
+/* =================================
+     NAV END
+===================================*/
+
+/* =================================
+     BANNER START
+===================================*/
+#banner{
+margin-bottom: 50px;
+}
+#banner .banner-item{
+  background: #fff2d0;
+  padding: 70px 50px;
+}
+#banner .banner-item .banner-text h4{
+  font-family: "Oswald", sans-serif;
+  font-size: 34px;
+  font-weight: 300;
+  color: #7ac431;
+}
+#banner .banner-item .banner-text h3{
+  font-family: "Oswald", sans-serif;
+  font-size: 58px;
+  font-weight: 700;
+  color: #252525;
+}
+#banner .banner-item .banner-text h5{
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #7ac431;
+}
+#banner .banner-item .banner-text a{
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 22px;
+  border-radius: 20px;
+  background: #7ac431;
+}
+#banner .banner-item .banner-img img{
+  width: 100%;
+}
+/* =================================
+    BANNER END
+===================================*/
+
+/* =================================
+    ICON PART START
+===================================*/
+#icon-part{
+  margin: 30px 0;
+  text-align: center;
+}
+#icon-part .icon-main{
+  padding: 20px 0;
+  border: 1px solid #ebebeb;
+}
+#icon-part .icon-main i{
+  font-size: 35px;
+  color: #7ac431;
+}
+#icon-part .icon-main h4{
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #252525;
+  margin: 6px 0;
+  position: relative;
+}
+#icon-part .icon-main h4::after {
+	position: absolute;
+	content: '';
+	width: 1px;
+	height: 110px;
+	background: #b7b7b7;
+	top: -47px;
+	right: -10px;
+}
+#icon-part .icon-main .ssp::after{
+  display: none;
+}
+#icon-part .icon-main h6{
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #b7b7b7;
+}
+/* =================================
+    ICON PART END
+===================================*/
+
+/* =================================
+    DEAL PART START
+===================================*/
+#deal{
+  margin: 50px 0;
+}
+#deal .dela{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #b7b7b7;
+}
+#deal .dela h3{
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #252525;
+  position: relative;
+}
+#deal .dela h3::after {
+	position: absolute;
+	content: '';
+	width: 110px;
+	height: 3px;
+	background: #7ac431;
+	bottom: -30px;
+	left: 0;
+}
+#deal .deal-main{
+  margin-bottom: 50px;
+}
+#deal .deal-item{
+  margin: 20px;
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #b7b7b7;
+  height: 570px;
+  transition: all ease .4s;
+}
+#deal .deal-item:hover {
+	border: 3px solid #7ac431;
+	box-shadow: 1px 0px 13px 4px rgba(0, 0, 0, 0.436);
+}
+#deal .deal-item h6{
+  width: 50px;
+  padding: 5px;
+  background: #7ac431;
+  color: #fff;
+  font-size: 18px;
+}
+#countdown{
+  display: flex;
+}
+#deal .wrapper{
+  background: #eaeff4;
+  padding: 2px;
+  margin: 10px 3px;
+}
+#deal .time {
+  color: #252525;
+  font-size: 20px;
+}
+#deal .label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #252525;
+  text-transform: uppercase;
+  display: block;
+}
+#deal .deal-item h5{
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #7ac431;
+  text-transform: uppercase;
+  margin: 5px 0;
+  letter-spacing: 5px;
+}
+#deal .deal-item h4{
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #252525;
+  margin: 8px 0;
+}
+#deal .deal-item h4 span{
+  color: #b7b7b7;
+  text-decoration: line-through;
+}
+#deal .deal-item .aab{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #eaeff4;
+  color: #7ac431;
+  border-radius: 50%;
+  margin: 10px 0;
+  margin-right: 8px;
+  transition: all linear .4s;
+}
+#deal .deal-item .aab:hover{
+  background: #7ac431;
+  color: #fff;
+}
+#deal .deal-item .icons{
+  padding: 10px 0;
+  border-bottom: 2px solid #b7b7b7;
+  position: relative;
+  z-index: 2;
+}
+#deal .deal-item .icons::after {
+	position: absolute;
+	content: '';
+	width: 64%;
+	height: 3px;
+	background: #7ac431;
+	bottom: -2px;
+	left: 0;
+}
+#deal .deal-item .icons i{
+  color: #efb11c;
+}
+#deal .deal-item p {
+	font-family: "Oswald", sans-serif;
+	font-size: 18px;
+	color: #252525;
+	margin-right: 72%;
+	margin-top: 15px;
+}
+#deal .slick-slide img {
+	margin: 0 auto;
+}
+#deal .deal-left{
+  height: 290px;
+  width: 100%;
+  background: #fbf9c9;
+  padding: 50px 20px;
+}
+#deal .deal-left img{
+  mix-blend-mode: darken;
+  width: 100%;
+}
+#deal .deal-left .left-text{
+  margin-top: 10px;
+}
+#deal .deal-left .left-text h4{
+  font-family: "Oswald", sans-serif;
+	font-size: 24px;
+	color: #252525;
+  font-weight: 500;
+}
+#deal .deal-left .left-text h3{
+  font-family: "Oswald", sans-serif;
+	font-size: 32px;
+	color: #252525;
+  font-weight: 600;
+}
+#deal .deal-left .left-text a{
+  font-family: "Oswald", sans-serif;
+	font-size: 16px;
+	color: #7ac431;
+  font-weight: 500;
+  border: 1px solid #7ac431;
+  padding: 6px 15px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 10px;
+  text-transform: uppercase;
+  transition: all linear .4s;
+}
+#deal .deal-left .left-text a:hover{
+  background: #7ac431;
+  color: #fff;
+}
+#deal .right{
+  background: #ffd7ed;
+}
+/* =================================
+    DEAL PART END
+===================================*/
+
+/* =================================
+    PRODUCT START
+===================================*/
+#product{
+  margin: 40px 0;
+}
+#product .dela{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #b7b7b7;
+}
+#product .dela h3{
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #252525;
+  position: relative;
+  display: inline-block;
+}
+#product .dela h3::after {
+	position: absolute;
+	content: '';
+	width: 110px;
+	height: 3px;
+	background: #7ac431;
+	bottom: -30px;
+	left: 0;
+}
+#product .tabs {
+	box-shadow: none;
+	background: transparent;
+	border: 0;
+	margin: 0;
+	position: relative;
+	top: -80px;
+	left: 32%;
+}
+#product .tabs button{
+  border: 0;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #252525;
+  text-transform: uppercase;
+}
+#product .tabs .active{
+  padding: 8px;
+  background-color: #7ac431;
+  color: #fff;
+}
+#product .nav-tabs {
+	border: 0;
+}
+#product .nav-tabs {
+	justify-content: center;
+}
+#product .tab-content .tab-item{
+  width: 100%;
+  height: 340px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  margin: 20px 0;
+} 
+#product .tab-content .tab-item img{
+  width: 100%;
+  margin-top: 10px;
+}
+#product .tab-content .tab-item h6{
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  color: #7ac431;
+  font-size:16px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+#product .tab-content .tab-item h5{
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  color: #252525;
+  font-size: 20px;
+}
+#product .tab-content .tab-item h4{
+  font-weight: 600;
+  color: #252525;
+  font-size: 20px;
+}
+#product .tab-content .tab-item h4 span{
+  text-decoration: line-through;
+  color: #b7b7b7;
+  font-size: 18px;
+}
+#product .tab-content .tab-item .aab{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #eaeff4;
+  color: #7ac431;
+  border-radius: 50%;
+  margin: 10px 0;
+  margin-right: 8px;
+  transition: all linear .4s;
+}
+#product .tab-content .tab-item .aab:hover{
+  background: #7ac431;
+  color: #fff;
+}
+#product .offer{
+  margin: 30px 0;
+  background: #e0eafc;
+  height: 400px;
+  width: 100%;
+  padding: 50px 0;
+  text-align: left;
+  border-radius: 20px;
+}
+#product .offer .of-left img {
+	width: 100%;
+}
+#product .offer .of-right{
+  position: relative;
+  margin-top: 40px;
+  margin-left: 200px;
+}
+#product .offer .of-right h2 {
+	position: absolute;
+	font-size: 135px;
+	font-family: "Oswald", sans-serif;
+	font-weight: 700;
+	color: #fd5f5c;
+	left: -155px;
+	top: -20px;
+}
+#product .offer .of-right h4{
+  font-size: 48px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  color: #252525;
+  margin-bottom: 0;
+}
+#product .offer .of-right h4 span{
+  color: #fd5f5c;
+}
+#product .offer .of-right p{
+  font-size: 22px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  color: #636363;
+  width: 350px;
+}
+#product .offer .of-right a{
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  padding: 7px 12px;
+  background: #fd5f5c;
+  border-radius: 10px;
+}
+#product2 .tab-item{
+  width: 100%;
+  height: 340px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  margin: 20px 0;
+} 
+#product2 .tab-item img{
+  width: 100%;
+  margin-top: 10px;
+}
+#product2 .tab-item h6{
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  color: #7ac431;
+  font-size:16px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+#product2 .tab-item h5{
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  color: #252525;
+  font-size: 20px;
+}
+#product2 .tab-item h4{
+  font-weight: 600;
+  color: #252525;
+  font-size: 20px;
+}
+#product2 .tab-item h4 span{
+  text-decoration: line-through;
+  color: #b7b7b7;
+  font-size: 18px;
+}
+#product2 .tab-item .aab{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #eaeff4;
+  color: #7ac431;
+  border-radius: 50%;
+  margin: 10px 0;
+  margin-right: 8px;
+  transition: all linear .4s;
+}
+#product2 .tab-item .aab:hover{
+  background: #7ac431;
+  color: #fff;
+}
+#product2 .dela{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #b7b7b7;
+}
+#product2 .dela h3{
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #252525;
+  position: relative;
+  display: inline-block;
+}
+#product2 .dela h3::after {
+	position: absolute;
+	content: '';
+	width: 110px;
+	height: 3px;
+	background: #7ac431;
+	bottom: -30px;
+	left: 0;
+}
+/* =================================
+   PRODUCT PART END
+===================================*/
+                                      
+/* =================================
+  LOGO MAIN START
+===================================*/
+#logo{
+       margin: 20px 0;
+     }        
+#logo .logo-main{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  background: #fff;
+ text-align: center;
+}     
+#logo .logo-main .logo-item{
+  width: 12%;
+}                    
+/* =================================
+   LOGO MAIN END
+===================================*/
+                                                 
+/* =================================
+   SALE START
+===================================*/
+#sale{
+  margin: 50px 0;
+}
+#sale .dela{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #b7b7b7;
+}
+#sale .dela h3{
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #252525;
+  position: relative;
+}
+#sale .dela h3::after {
+	position: absolute;
+	content: '';
+	width: 110px;
+	height: 3px;
+	background: #7ac431;
+	bottom: -30px;
+	left: 0;
+}         
+#sale .sale-item{
+  margin-top: 30px;
+}
+#sale .sale-item .s-img img{
+  width: 100%;
+}  
+#sale .sale-item .sale-text{
+  margin-top: 10px;
+}           
+#sale .sale-item .sale-text h5{
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #252525;
+}                  
+#sale .sale-item .sale-text h6{
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #252525;
+}        
+#sale .sale-item .sale-text h6 span{
+  font-size: 16px;
+  color: #b7b7b7;
+  text-decoration: line-through;
+}      
+/* =================================
+   SALE END
+===================================*/
+                                      
+/* =================================
+  BLOG PART START
+===================================*/  
+#blog {
+  margin: 40px 0;
+}  
+#blog .dela{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #b7b7b7;
+}
+#blog  .dela h3{
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #252525;
+  position: relative;
+}
+#blog  .dela h3::after {
+	position: absolute;
+	content: '';
+	width: 110px;
+	height: 3px;
+	background: #7ac431;
+	bottom: -30px;
+	left: 0;
+}         
+#blog .blog-main{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+#blog .blog-main .blog-item{
+  width: 19%;
+}
+#blog .blog-main .blog-item img{
+  width: 100%;
+}
+#blog .blog-main .blog-item .blog5{
+  height: 137px;
+  object-fit: cover;
+}
+#blog .blog-main .blog-item img{
+  width: 100%;
+}
+#blog .blog-main .blog-item p{
+  margin-top: 15px;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #b2b2b2;
+}
+#blog .blog-main .blog-item h4{
+  font-family: "Oswald", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  color: #252525;
+}
+#blog .blog-main .blog-item h6{
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #636363;
+}
+#blog .blog-main .blog-item a{
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #636363;
+  transition: all linear .4s;
+}
+#blog .blog-main .blog-item a:hover{
+  color: #7ac431;
+}
+#blog .blog-main .blog-item p span{
+  margin-right: 70px;
+}
+#blog .blog-main .blog-item p i{
+  margin-right: 7px;
+}
+/* =================================
+   BLOG PART END
+===================================*/
+
+/* =================================
+   BRAND PART START
+===================================*/
+#brand{
+  margin: 40px 0;
+}
+#brand .dela{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #b7b7b7;
+}
+#brand  .dela h3{
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #252525;
+  position: relative;
+}
+#brand .dela h3::after {
+	position: absolute;
+	content: '';
+	width: 110px;
+	height: 3px;
+	background: #7ac431;
+	bottom: -30px;
+	left: 0;
+}      
+#brand  h4{
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #252525;
+  margin: 20px 0;
+}
+#brand  h4 span{
+  color: #b2b2b2;
+  font-size: 16px;
+  margin-left: 5px;
+}
+/* =================================
+   BRAND PART END
+===================================*/
+
+
+/* =================================
+   FOOTER START
+===================================*/
+footer{
+margin-top: 50px;
+margin-bottom: 30px;
+}
+footer .footer{
+padding: 25px 0;
+border-top: 1px solid #b7b7b7;
+border-bottom: 1px solid #b7b7b7;
+}
+footer img{
+  width: 80%;
+  margin-bottom: 20px;
+}
+footer p{
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #636363;
+  margin: 5px 0;
+}
+footer i{
+  width: 35px;
+  height: 35px;
+  line-height: 35px !important;
+  text-align: center;
+  border-radius: 50%;
+  background: #b2b2b2;
+  color: #252525;
+  margin: 20px 0;
+  margin-right: 8px;
+  transition: .4s;
+}
+footer i:hover{
+  color: #fff;
+  background: #7ac431;
+}
+footer  h3{
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #252525;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+footer ul li a{
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #636363;
+  transition: .4s;
+  display: inline-block;
+  margin: 6px 0;
+}
+footer ul li a:hover{
+  color: #7ac431;
+}
+footer input{
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  background: #eaeff4;
+  border: 0;
+  box-shadow: none;
+  padding-left: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+footer .f-last{
+  position: relative;
+}
+footer button {
+	position: absolute;
+	top: 73%;
+	left: 63%;
+	background: #7ac431;
+	border: 0;
+	box-shadow: none;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	font-family: "Oswald", sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+#copy img{
+  float: right;
+}
+#copy p{
+  font-family: "Oswald", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+  color: #636363;
+}
+/* =================================
+  FOOTER END
+===================================*/
+
+
+                                      

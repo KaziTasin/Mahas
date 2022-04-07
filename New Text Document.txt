@@ -1,0 +1,4 @@
+<i class="fa-solid fa-truck"></i>
+<i class="fa-solid fa-clock"></i>
+<i class="fa-solid fa-money-check"></i>
+<i class="fa-solid fa-headset"></i>
